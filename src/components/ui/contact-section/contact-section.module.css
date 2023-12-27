@@ -1,0 +1,90 @@
+.form {
+    display: grid;
+    grid-template-columns: 5.5fr 4.5fr;
+    row-gap: 2rem;
+    max-width: 70rem;
+
+    border-radius: 10px;
+    overflow-x: hidden;
+    background-color: #25261F;
+
+    box-shadow: 4px 4px 5px #000;
+}
+
+.form img {
+    width: 100%;
+}
+
+.contactInfo {
+    grid-column: 1/span 2;
+    padding: 1rem 3rem;
+    text-align: center;
+    color: white;
+
+    background-color: rgba(33, 103, 123, 0.157);
+}
+
+.contactInfo h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contactInfo p {
+    text-align: justify;
+}
+
+.controls {
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    color: white;
+}
+
+.control {
+    display: grid;
+    row-gap: 0.7rem;
+}
+
+.control label {
+    font-size: 1.5rem;
+}
+
+.control input {
+    height: 100%;
+    width: 90%;
+}
+
+
+.control textarea {
+    height: 6rem;
+    width: 90%;
+
+}
+
+
+.btn {
+    padding: 1.5rem 1.6rem;
+    background-color: #21677b;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 200;
+
+
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    background-color: #091d23;
+    cursor: pointer;
+}
+
+.controls .btn {
+    max-width: 40%;
+    align-self: center;
+}

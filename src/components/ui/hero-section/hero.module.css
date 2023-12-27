@@ -1,0 +1,44 @@
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.introText {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(21, 30, 40, 0.9);
+  border-radius: 10px;
+  padding: 1rem 2rem 2rem 2rem;
+  color: white;
+
+  width: 30%;
+}
+
+.introText h1 {
+  padding-bottom: 3rem ;  
+  font-size: 5rem;
+}
+
+.introText p {
+  font-size: 1rem;
+  color: #AEB5BD;
+
+}
+
+.hero img {
+  width: 100%;
+  right: 10rem;
+}
+
+/* 
+.skill {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  width: 100%;
+}
+
+ */
