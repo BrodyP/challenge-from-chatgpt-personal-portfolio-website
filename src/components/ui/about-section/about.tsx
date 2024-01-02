@@ -1,8 +1,14 @@
+import SectionTopic from "../share-component/section-topic";
 import classes from "./about.module.css";
 
-function AboutSection() {
+interface AboutSectionProps {
+  id: string;
+}
+
+function AboutSection(props: AboutSectionProps) {
   return (
-    <section>
+    <section id={props.id}>
+      <SectionTopic title="About" content="Let's know me" />
       <div className={classes.container}>
         <div className={classes.imageContainer}>
           <img src="/images/bio1.jpeg" alt="french bulldog developer" />
@@ -10,13 +16,13 @@ function AboutSection() {
         <div className={classes.contentContainer}>
           <h3>Background</h3>
           <p>
-            I am a self-taught developer with a background in the hospitality
-            industry. I have a passion for learning and creating. I am currently
-            working on a few projects and looking for my first developer role.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptas distinctio laboriosam nam consequuntur placeat, et
-            voluptates ratione autem perspiciatis vitae minus nihil in sequi
-            quis maiores molestiae vero possimus?
+            I am a self-taught developer who swapped the heat of the kitchen for
+            the heat of the compiler. From serving up dishes in the hospitality
+            industry, I now serve up delicious lines of code. My passion for
+            learning and creating hasn't changed, it's just the ingredients that
+            are different. Currently, I'm cooking up a few exciting projects and
+            hunting for my first developer role, ready to bring a unique flavor
+            to the tech industry.
           </p>
         </div>
       </div>

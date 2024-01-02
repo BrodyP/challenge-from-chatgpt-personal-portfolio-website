@@ -27,20 +27,22 @@
 
 .imageContainer::before {
     content: "";
-    width: 28rem;
-    height: 28rem;
+    width: 60%;
+    /* height: 60%; */
+    padding-bottom: 60%;
     background-color: rgba(0, 0, 138, 0.7);
-    border-radius: 50%;
+    border-radius: 60%;
     position: absolute;
     z-index: 1;
 }
 
 .imageContainer::after {
     content: "";
-    width: 35rem;
-    height: 35rem;
+    width: 65%;
+    /* height: 60%; */
+    padding-bottom: 65%;
     background-color: #000033;
-    border-radius: 50%;
+    border-radius: 55%;
     position: absolute;
     z-index: 0;
 }
@@ -48,6 +50,7 @@
 .contentContainer {
     background-color: #f5f5f5;
     border-radius: 10px;
+    margin: 2rem 2rem;
 }
 
 .contentContainer h3 {

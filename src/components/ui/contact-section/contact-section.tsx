@@ -1,8 +1,15 @@
+import SectionTopic from "../share-component/section-topic";
 import classes from "./contact-section.module.css";
 
-function ContactSection() {
+interface ContactSectionProps {
+  id: string;
+}
+
+function ContactSection(props: ContactSectionProps) {
   return (
-    <section>
+    <section id={props.id}>
+      <SectionTopic title="" content="" />
+
       <form className={classes.form}>
         <div className={classes.contactInfo}>
           <h3>Let's Connect</h3>
@@ -31,7 +38,7 @@ function ContactSection() {
             Send a Message
           </button>
         </div>
-        <img src="/images/mail.png" alt="send mail to me image" />
+        <img src="/images/mail.png" alt="send mail to me" />
       </form>
     </section>
   );

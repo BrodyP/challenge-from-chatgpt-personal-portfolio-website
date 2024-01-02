@@ -12,10 +12,10 @@ function App() {
     <main>
       <Navigation />
       <div className="app">
-        <HeroSection />
-        <AboutSection />
-        <ProjectSection />
-        <ContactSection />
+        <HeroSection id="hero" />
+        <AboutSection id="about" />
+        <ProjectSection id="project" />
+        <ContactSection id="contact" />
       </div>
       <Footer />
     </main>

@@ -6,15 +6,14 @@ You have one hour to create a personal portfolio website for a fictional web dev
 1. **Header:**
    - Full-width header with a background image.  ✅
    - John Doe's name and a navigation menu with links to sections (Home, About, Projects, Contact).✅
-   - When you click on a navigation link, it should smoothly scroll to the corresponding section on the page.
+   - When you click on a navigation link, it should smoothly scroll to the corresponding section on the page.✅
 
 2. **Home Section:**
    - A welcome message with a profile picture of John Doe.✅
-   - A brief introduction to John's skills and expertise.
+   - A brief introduction to John's skills and expertise.✅
 
 3. **About Section:**
    - A section that provides more details about John's background and experience.✅
-   - Include a timeline or list to highlight key milestones in John's career.
 
 4. **Projects Section:**
    - Display at least three project cards.✅
@@ -30,15 +29,14 @@ You have one hour to create a personal portfolio website for a fictional web dev
    - Copyright information and a link to the top of the page.✅
 
 **Requirements:**
-- Use React and TypeScript to build the website.
+- Use React and TypeScript to build the website.✅
 - The website should be fully responsive and mobile-friendly. It should look good on both desktop and mobile devices.
-- Use functional components and hooks in React.
-- Use TypeScript for type checking and defining interfaces.
-- Apply CSS styling to make the website visually appealing. You can use CSS modules or any CSS-in-JS library if preferred.
-- Implement smooth scrolling for navigation links.
-- Use any fonts and colors of your choice.
-- You can use placeholder text and images for now.
-- Feel free to use any additional libraries or frameworks if you prefer.
+- Use functional components and hooks in React.✅
+- Use TypeScript for type checking and defining interfaces.✅
+- Apply CSS styling to make the website visually appealing. You can use CSS modules or any CSS-in-JS library if preferred.✅
+- Implement smooth scrolling for navigation links.✅
+- Use any fonts and colors of your choice.✅
+- Feel free to use any additional libraries or frameworks if you prefer.✅
 
 **Evaluation:**
 Candidates will be evaluated on the following criteria:
@@ -48,5 +46,3 @@ Candidates will be evaluated on the following criteria:
 - JavaScript/TypeScript implementation for smooth scrolling.
 - Overall design and aesthetics.
 - Attention to detail and creativity.
-
-After the candidate completes the task, you can review their React code, test the website on different devices, and assess their problem-solving skills and proficiency in building a React application with TypeScript.

@@ -1,0 +1,13 @@
+.sectionTopic {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 10rem 2rem 2rem 2rem;
+    align-items: center;
+}
+
+.sectionTopic h1 {
+    color: #435A69;
+    font-size: 2rem;
+    font-weight: 700;
+}

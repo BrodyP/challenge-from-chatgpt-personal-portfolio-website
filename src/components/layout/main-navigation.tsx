@@ -4,21 +4,21 @@ function MainNavigation() {
   return (
     <nav className={classes.nav}>
       <div className={classes.actions}>
-        <a>
+        <a href="/">
           <h1>John</h1>
         </a>
         <ul>
           <li>
-            <a>Home</a>
+            <a href="#hero">Home</a>
           </li>
           <li>
-            <a>About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a>Project</a>
+            <a href="#project">Project</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
