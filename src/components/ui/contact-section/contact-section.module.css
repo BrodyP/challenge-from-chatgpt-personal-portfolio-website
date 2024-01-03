@@ -11,7 +11,7 @@
     box-shadow: 4px 4px 5px #000;
 }
 
-.form img {
+.imgContainer img {
     width: 100%;
 }
 
@@ -87,4 +87,44 @@
 .controls .btn {
     max-width: 40%;
     align-self: center;
+}
+
+
+@media (max-width: 62em) {
+    .btn {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:54em) {
+    .form {
+        grid-template-columns: 1fr;
+        row-gap: 0;
+    }
+
+    .imgContainer {
+        width: 100%;
+        height: 18rem;
+        background:url(../../../../public/images/mail.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .imgContainer img {
+        visibility: hidden;
+    }
+
+    .contactInfo {
+        grid-row: 2;
+    }
+
+    .controls {
+        grid-row: 3;
+    }
+}
+
+@media(max-width:30em) {
+    .btn {
+        font-size: 0.7rem;
+    }
 }

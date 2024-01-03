@@ -18,3 +18,9 @@ html {
 
     align-items: center;
 }
+
+@media (max-width: 62em) {
+    .app {
+        gap: 3rem;
+    }
+  }

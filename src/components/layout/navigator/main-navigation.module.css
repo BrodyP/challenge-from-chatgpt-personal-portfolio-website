@@ -1,0 +1,95 @@
+.nav {
+    padding: 0.25rem 2rem;
+    background-color: rgba(21, 30, 40, 0.7);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actions h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.actions a,
+.actions a:visited,
+.actions a:active {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.actions a:hover {
+    color: #c8d7e1;
+}
+
+.actions ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+
+.actions ul li:hover a {
+    color: #c8d7e1;
+}
+
+
+.mobileNav {
+    /* background-color:  #5B6169;} */
+    background-color: white;
+    height: 90vh;
+    display: none;
+}
+
+.mobileNav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90%;
+    list-style-type: none;
+
+
+}
+
+.mobileNav a,
+.mobileNav a:visited,
+.mobileNav a:active {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #5B6169;
+}
+
+
+.open {
+    display: none;
+}
+
+.btnMobile {
+    display: none;
+}
+
+@media (max-width: 54em) {
+    .actions ul {
+        display: none;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .btnMobile {
+        display: block;
+    }
+
+}

@@ -38,7 +38,9 @@ function ContactSection(props: ContactSectionProps) {
             Send a Message
           </button>
         </div>
-        <img src="/images/mail.png" alt="send mail to me" />
+        <div className={classes.imgContainer}>
+          <img src="/images/mail.png" alt="send mail to me" />
+        </div>
       </form>
     </section>
   );

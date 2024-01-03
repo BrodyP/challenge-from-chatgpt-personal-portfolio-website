@@ -9,8 +9,8 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    padding-bottom: 20rem;
-    height: 100%;
+    padding-bottom: 2rem;
+    /* height: 100%; */
 
 }
 
@@ -51,6 +51,9 @@
     background-color: #f5f5f5;
     border-radius: 10px;
     margin: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contentContainer h3 {
@@ -62,8 +65,25 @@
 }
 
 .contentContainer p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 1.5;
-    padding: 0 2rem;
-    text-align: justify;
+    padding: 0rem 2rem 1rem 2rem;
+    text-align: left;
+}
+
+
+@media(max-width:54em) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .imageContainer {
+        margin-top: 5rem;
+    }
+
+    .container:last-child {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  
 }

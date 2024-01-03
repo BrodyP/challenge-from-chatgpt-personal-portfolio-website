@@ -11,3 +11,10 @@
     font-size: 2rem;
     font-weight: 700;
 }
+
+
+@media (max-width: 62em) {
+    .sectionTopic {
+        padding: 5rem 2rem 2rem 2rem;
+    }
+  }

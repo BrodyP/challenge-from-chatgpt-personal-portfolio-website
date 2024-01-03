@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import HeroSection from "./components/ui/hero-section/hero";
-import Navigation from "./components/layout/main-navigation";
+import Navigation from "./components/layout/navigator/main-navigation";
 import AboutSection from "./components/ui/about-section/about";
 import ProjectSection from "./components/ui/project-section/project-section";
 import ContactSection from "./components/ui/contact-section/contact-section";
